@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nomend Kumar Sahu — AI/ML &amp; Computer Vision</title>
+  <meta name="description" content="Portfolio of Nomend Kumar Sahu, a B.Tech CSE (Data Science) student building applied AI in computer vision and RAG.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="mark" href="#top">Nomend Kumar Sahu</a>
+  <nav aria-label="Primary">
+    <a href="#work">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="hello">Hi, I'm Nomend. B.Tech CSE (Data Science), 2024–2028.</p>
+    <h1>
+      I build AI that works on
+      <span class="det" data-label="road 0.97">roads</span>,
+      in <span class="det alt" data-label="village 0.93">villages</span>,
+      and on <span class="det" data-label="real data 0.99">real data</span>.
+    </h1>
+    <p class="lede">
+      Most of my work is computer vision: finding potholes, sorting plastic waste, reading number plates.
+      I've interned at IIT Bhilai and with UNICEF India × NIT Raipur, and I'm looking for an AI/ML internship.
+    </p>
+    <p class="actions">
+      <a class="btn" href="#contact">Get in touch</a>
+      <a class="btn ghost" href="Nomend_Resume.pdf">Download resume (PDF)</a>
+    </p>
+  </section>
+
+  <section id="work" class="block">
+    <h2>Projects</h2>
+    <p class="note">Tap a row to read more.</p>
+
+    <div class="rows">
+      <details>
+        <summary><span class="t">Pothole and road defect detection</span><span class="s">YOLO · Python · GPS/GIS</span></summary>
+        <div class="body">
+          <p>A computer-vision pipeline that finds potholes and other road defects, then ties each detection to a location. The aim is to help maintenance teams see where roads need fixing without surveying every kilometre by hand.</p>
+          <p class="links"><a href="https://github.com/NomendSahu">Code on GitHub</a></p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="t">Chat with any document (RAG)</span><span class="s">FastAPI · ChromaDB · Hugging Face</span></summary>
+        <div class="body">
+          <p>Upload a document such as a resume or a syllabus and ask it questions. It breaks the text into chunks, searches them with a vector database, and answers from what it finds.</p>
+          <p class="links"><a href="https://github.com/NomendSahu">Code on GitHub</a></p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="t">Multi-camera vehicle tracking (SIH 26127)</span><span class="s">OCR · Vehicle Re-ID · GIS</span></summary>
+        <div class="body">
+          <p>My Smart India Hackathon proposal for an intelligence layer on top of existing CCTV, ANPR, ITMS and GIS systems. It combines OCR confidence, vehicle re-identification, timing and road-network limits to recover a vehicle's path across cameras.</p>
+          <p class="links"><a href="https://github.com/NomendSahu">Code on GitHub</a></p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="t">FraudLens</span><span class="s">Python · Scikit-learn</span></summary>
+        <div class="body">
+          <p>A machine-learning system that flags job postings that look fraudulent, so job seekers can avoid them early.</p>
+          <p class="links"><a href="https://github.com/NomendSahu">Code on GitHub</a></p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="t">Belever</span><span class="s">Flutter</span></summary>
+        <div class="body">
+          <p>A mobile app that helps people cut down on digital distractions and stay focused.</p>
+          <p class="links"><a href="https://github.com/NomendSahu">Code on GitHub</a></p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section id="experience" class="block">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <p class="when">July 2026</p>
+        <h3>Development Intern, UNICEF India × NIT Raipur</h3>
+        <p>EchoByte, an AI system for plastic recovery and community-led waste management. I worked on YOLO-based plastic detection and segregation, OCR, and vehicle number-plate detection, and helped with data processing and testing.</p>
+      </li>
+      <li>
+        <p class="when">May – June 2026</p>
+        <h3>Project Intern, IIT Bhilai</h3>
+        <p>Applied data science and ML to rural development. I ran field surveys, did GPS/GIS mapping, and turned the field data into insights with the research team.</p>
+      </li>
+      <li>
+        <p class="when">May – June 2025</p>
+        <h3>Web Developer Intern</h3>
+        <p>Built and deployed a responsive website in HTML, CSS and JavaScript, from version control through to going live.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="skills" class="block">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>Languages</dt><dd>Python, C/C++, SQL, JavaScript</dd>
+      <dt>ML and data</dt><dd>Scikit-learn, Pandas, NumPy, Matplotlib, feature engineering, model evaluation</dd>
+      <dt>Computer vision</dt><dd>YOLO, object detection, OCR, vehicle re-ID, image processing</dd>
+      <dt>GenAI</dt><dd>RAG, ChromaDB, Hugging Face</dd>
+      <dt>Backend</dt><dd>FastAPI, Flask, Streamlit, REST APIs, Docker, Git</dd>
+      <dt>Databases</dt><dd>MySQL, PostgreSQL, Supabase</dd>
+      <dt>Web and mobile</dt><dd>HTML, CSS, JavaScript, Flutter</dd>
+    </dl>
+  </section>
+
+  <section class="block">
+    <h2>Wins and certificates</h2>
+    <ul class="wins">
+      <li>Build With Bharat 2.0, finalist</li>
+      <li>Climatethon'26, winner</li>
+      <li>SELL IT'26, winner</li>
+      <li>Designer 3D, NSSC'25, winner</li>
+      <li>Outskill AI Mastermind; Vocational Training at Jetking</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="block contact">
+    <h2>Let's talk</h2>
+    <p>If you have an internship, a project, or a question about anything above, email me.</p>
+    <p class="actions">
+      <a class="btn" href="mailto:nomendsahu22@gmail.com">nomendsahu22@gmail.com</a>
+      <button class="btn ghost" id="copy" type="button">Copy email</button>
+    </p>
+    <p class="elsewhere">
+      <a href="https://github.com/NomendSahu">GitHub</a>
+      <a href="https://linkedin.com/in/nomendsahu">LinkedIn</a>
+      <a href="tel:+919406325281">+91 94063 25281</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Written by hand in HTML, CSS and a little JavaScript. © <span id="year">2026</span> Nomend Kumar Sahu</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
